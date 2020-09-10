@@ -2,26 +2,17 @@ package com.kongpf.helper.demo;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.SyncStateContract;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.kongpf.commonhelper.AlgorithmHelper;
 import com.kongpf.commonhelper.AlipayHelper;
 import com.kongpf.commonhelper.ApkHelper;
-import com.kongpf.commonhelper.AssetHelper;
-import com.kongpf.commonhelper.ByteHelper;
-import com.kongpf.commonhelper.CameraHelper;
-import com.kongpf.commonhelper.FileHelper;
 import com.kongpf.commonhelper.IntentHelper;
 import com.kongpf.commonhelper.MarketHelper;
 import com.kongpf.commonhelper.ScreenHelper;
 import com.kongpf.commonhelper.ShortCutHelper;
-import com.kongpf.commonhelper.StreamHelper;
 import com.kongpf.commonhelper.ToastHelper;
-
-import java.io.File;
-import java.io.InputStream;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
